@@ -7,12 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1KQC2D4OAQ1Zr_9qpbX4YQ01H8T6Tpy9n
 """
 
-pip install streamlit pandas plotly requests
+
 
 import streamlit as st
 import requests
 import pandas as pd
-import plotly.express as px
+import plotly as px
 API_KEY = '6ab4dd50f1659904149c169e'  # Use your provided API key
 BASE_URL = 'https://v6.exchangerate-api.com/v6/{}/'
 
