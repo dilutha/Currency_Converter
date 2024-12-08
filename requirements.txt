@@ -1,3 +1,4 @@
+python_version==3.8
 matplotlib==3.7.0
 pandas==2.1.0
 plotly==5.12.0
