@@ -1,0 +1,14 @@
+name: my_environment  # You can name your environment here
+channels:
+  - defaults
+dependencies:
+  - python=3.8  # You can specify the Python version as needed
+  - pip
+  - matplotlib==3.7.0
+  - pandas==2.1.0
+  - plotly==5.12.0
+  - requests==2.31.0
+  - seaborn==0.12.2
+  - streamlit==1.17.0
+  - pip:
+    - # You can include additional pip packages here if needed
